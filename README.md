@@ -1,4 +1,4 @@
-NB: You might find useful the [sample proposal](https://github.com/zamfi/cca-programming-electronics-fall-2017/blob/master/hw/sample-proposal.md) useful in completing this assignment!
+NB: You might find useful the [sample proposal for a software/hardware project](https://github.com/zamfi/cca-programming-electronics-fall-2017/blob/master/hw/sample-proposal.md) useful in completing this assignment!
 
 # Your Project Title Here
 
@@ -14,7 +14,7 @@ Include a discussion how it will be interactive or responsive to the environment
 
 From what pieces did you build your project?
 
-Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
+Include what types of inputs/outputs/data it will use, and a diagram showing how all those pieces are connected.
 
 ## Challenges
 
