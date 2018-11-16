@@ -35,6 +35,6 @@ What did you do in each of the past five weeks?
 Photos and videos of your completed final project!
 
 ## References and links
-http://developer.dribbble.com/v2/
-https://www.youtube.com/watch?v=Q0pHYugySXU
-https://jribbble.glitch.me
+API Link: http://developer.dribbble.com/v2/
+API implimentation tutorial: https://www.youtube.com/watch?v=Q0pHYugySXU
+Library working with Dribbble API: https://jribbble.glitch.me
