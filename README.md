@@ -35,5 +35,6 @@ What did you do in each of the past five weeks?
 Photos and videos of your completed final project!
 
 ## References and links
-##### Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
 http://developer.dribbble.com/v2/
+https://www.youtube.com/watch?v=Q0pHYugySXU
+https://jribbble.glitch.me
