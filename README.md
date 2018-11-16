@@ -7,7 +7,7 @@ A micro-site that will help designers formulate projects with prompts and parame
 ## Summary
 
 ##### Here, write a paragraph or two describing what you built for your final project and what was challenging. 
-I will build a micro-site that will use a database of design prompts and dribble images to formulate projects for designers.
+I will build a micro-site that will use a database of design prompts and dribbble images to formulate projects for designers.
 ##### Include a discussion how it will be interactive or responsive to the environment.
 Users will be able to roll randomly generated prompts that deliver unique project ideas. Users may randomly roll for different projects and possibly individual components of each project.
 ## Component Parts
