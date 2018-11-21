@@ -25,7 +25,7 @@ It will be challenging to implement the dribbble api. I hope it works
 What did you do in each of the past five weeks?
 
 - Week 1: Write proposal// set up respritory and initial files/workspace
-- Week 2: 
+- Week 2: Research API implimentation and API experiementation// Setup workspace.
 - Week 3:
 - Week 4:
 - Week 5: Present!
