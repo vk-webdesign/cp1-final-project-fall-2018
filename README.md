@@ -25,7 +25,7 @@ It will be challenging to implement the dribbble api. I hope it works
 What did you do in each of the past five weeks?
 
 - Week 1: Write proposal// set up respritory and initial files/workspace
-- Week 2: Research API implimentation and API experiementation// Setup workspace.
+- Week 2: Research API implementation and API experiementation// Setup workspace.// dribble API not functional, dated// Implementing Behance API. // update workspace to acomodate p5 and inserts Behance API.
 - Week 3:
 - Week 4:
 - Week 5: Present!
@@ -36,5 +36,5 @@ Photos and videos of your completed final project!
 
 ## References and links
 API Link: http://developer.dribbble.com/v2/
-API implimentation tutorial: https://www.youtube.com/watch?v=Q0pHYugySXU
+API implementation tutorial: https://www.youtube.com/watch?v=Q0pHYugySXU
 Library working with Dribbble API: https://jribbble.glitch.me

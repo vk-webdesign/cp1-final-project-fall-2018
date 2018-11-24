@@ -1,8 +1,13 @@
 .widget {
-    background-color: $color-main;
+    position: relative;
+    margin: auto;
+    width: 800px;
+    min-height:100%;
 
     &__dribbble {
+        margin:auto;
         background-color: $color-main;
+        height:600px;
     }
 
     &__prompt {

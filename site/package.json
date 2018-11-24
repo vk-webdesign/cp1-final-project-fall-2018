@@ -23,5 +23,8 @@
   "homepage": "https://github.com/vk-webdesign/cp1-final-project-fall-2018#readme",
   "devDependencies": {
     "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "p5": "^0.7.2"
   }
 }
