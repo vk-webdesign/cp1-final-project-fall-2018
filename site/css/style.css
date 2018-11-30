@@ -23,13 +23,10 @@ body {
 
 .widget {
   position: relative;
-  margin: auto;
-  width: 800px;
-  min-height: 100%; }
+  margin: auto; }
   .widget__dribbble {
     margin: auto;
-    background-color: #2E294E;
-    height: 600px; }
+    background-color: #2E294E; }
   .widget__prompt {
     background-color: #2E294E; }
   .widget__button {
