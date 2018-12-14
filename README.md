@@ -14,7 +14,7 @@ Users will be able to roll randomly generated prompts that deliver unique projec
 
 From what pieces did you build your project?
 
-Include what types of inputs/outputs/data it will use, and a diagram showing how all those pieces are connected.
+![Design Inspiration block diagram](img/block-diagram.jpg)
 
 ## Challenges
 ##### A brief discussion of what was hard, challenging, or unexpected about your project.
@@ -26,13 +26,16 @@ What did you do in each of the past five weeks?
 
 - Week 1: Write proposal// set up respritory and initial files/workspace
 - Week 2: Research API implementation and API experiementation// Setup workspace.// dribble API not functional, dated// Implementing Behance API. // update workspace to acomodate p5 and inserts Behance API.
-- Week 3:
-- Week 4:
+- Week 3: Behance API not functional // readjust layout // implement Rita.JS // font research // implement functionality
+- Week 4: Visual design and styling // increase functionality // add prompts to Rita.JS database // Refine everything for presentation.
 - Week 5: Present!
 
 ## Completed Work
+![Design Inspiration completed work 01](img/splash.png)
+![Design Inspiration completed work 02](img/splash-highlight.png)
+![Design Inspiration completed work 03](img/prompt-button.png)
+![Design Inspiration completed work 02](img/good-design-list.png)
 
-Photos and videos of your completed final project!
 
 ## References and links
 API Link: http://developer.dribbble.com/v2/
