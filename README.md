@@ -10,7 +10,7 @@ A micro-site that will help designers formulate projects with prompts and parame
 I built a micro-site designed to help designers come up with portfolio project ideas when they have free time to work on their own projects. The prompts are meant to inspire direction and expand a designers versatility within their portfolio. This site uses a database of established Bay Area companies as well as prompts for non-profit causes, musical artists and sports teams.
 
 ##### Include a discussion how it will be interactive or responsive to the environment.
-Users will be able to roll randomly generated prompts that deliver unique design project ideas. 
+Users will be able to roll randomly generated prompts that deliver unique design project ideas, using their mouse and keyboard.
 
 ## Component Parts
 
