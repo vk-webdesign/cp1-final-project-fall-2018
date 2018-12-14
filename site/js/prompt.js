@@ -8,9 +8,9 @@ let rules = {
     '<design>': "your typography | form making | your workflow | your photography | precise geometric layout | organic form making | your illustration | to evoke a specific feeling",
 
 
-    '<event>': "a <artist> concert | a <company> conference | a local book signing | the <nba> team | a television series of your choice | a weekly farmers market | a comedy show | a theatrical performance | a community arts fair",
+    '<event>': "a <artist> concert | a <company> conference | a local book signing | the <sports> team | a television series of your choice | a weekly farmers market | a live comedy show | a theatrical performance | a community arts fair",
     '<artist>': "Eminem | Beyonce | Linkin Park | The Offspring | Massive Attack | Mariah Carey | Clean Bandit | Anderson .Paak | Arcade Fire | The White Stripes | Daft Punk | Lady Gaga | Ellie Goulding",
-    '<nba>': "Warriors (NBA) | Rockets (NBA) | Thunder (NBA",
+    '<sports>': "Warriors (NBA) | Rockets (NBA) | Thunder (NBA)",
 }
 let grammar = new RiGrammar(rules);
     
