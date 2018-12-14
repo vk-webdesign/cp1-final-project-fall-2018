@@ -1,15 +1,17 @@
 NB: You might find useful the [sample proposal for a software/hardware project](https://github.com/zamfi/cca-programming-electronics-fall-2017/blob/master/hw/sample-proposal.md) useful in completing this assignment!
 
-# Design inspiration w/ Dribbble
+# Design inspiration generator
 
-A micro-site that will help designers formulate projects with prompts and parameters.
+A micro-site that will help designers formulate projects with prompts and parameters. I find that coming up with good ideas to work on for portfolio can be time-consuming or can be something that can be hindered by overthinking. This micro-site will help designers cut down on the time needed to come up with real-world ideas, and get a move on desiging!
 
 ## Summary
 
 ##### Here, write a paragraph or two describing what you built for your final project and what was challenging. 
-I will build a micro-site that will use a database of design prompts and dribbble images to formulate projects for designers.
+I built a micro-site designed to help designers come up with portfolio project ideas when they have free time to work on their own projects. The prompts are meant to inspire direction and expand a designers versatility within their portfolio. This site uses a database of established Bay Area companies as well as prompts for non-profit causes, musical artists and sports teams.
+
 ##### Include a discussion how it will be interactive or responsive to the environment.
-Users will be able to roll randomly generated prompts that deliver unique project ideas. Users may randomly roll for different projects and possibly individual components of each project.
+Users will be able to roll randomly generated prompts that deliver unique design project ideas. 
+
 ## Component Parts
 
 From what pieces did you build your project?
