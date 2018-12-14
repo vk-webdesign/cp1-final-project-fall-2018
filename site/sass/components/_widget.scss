@@ -1,6 +1,20 @@
+@keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+}
+
+.background-photo {
+    width:100%;
+}
+
 .widget {
-    position: relative;
-    margin: auto;
+    font-weight: 600;
 
 
     &__dribbble {
@@ -11,8 +25,124 @@
     &__prompt {
         background-color: $color-main;
     }
+}
 
-    &__button {
-        background-color: $color-main;
+#prompt {
+    @include anchor-center;
+    //animation: show 1s linear 1;
+    width: 75vw;
+
+
+    font-size: 12.5rem;
+    font-family: $fieldwork-bold, sans-serif;
+    text-align: center;
+    letter-spacing: 0rem;
+    line-height: 12.5rem;
+    font-variant-ligatures: common-ligatures;
+}
+
+.prompt {
+    &__icon {
+        @include anchor-triangle;
+        position: fixed;
+        width: 8rem;
+        position: fixed;
+        transition: all .4s;
+
+        &:hover,
+        &:active {
+            top: 92%;
+            background-color: $color-type-accent;
+        }
     }
+}
+
+.keys {
+    &__checkbox {
+        display: none;
+    }
+    &__button {
+        @include anchor-keys;
+        cursor: pointer;
+        height: 4rem;
+        width: 20rem;
+        position: fixed;
+        z-index: 2100;
+        text-align: center;
+
+        font-family: $fieldwork-bold;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        text-align: center;
+        letter-spacing: 0.18rem;
+        color: $color-type-accent;
+
+        transition: all .4s;
+
+        &:hover,
+        &:active {
+            top: 8%;
+            background-size: 100%;
+        }
+    }
+
+    &__background {
+        @include anchor-keys-bkg;
+        height: 0.5rem;
+        width: 0.5rem;
+        border-radius: 50%;
+        z-index: 1;
+        opacity: 0;
+        z-index: 1000;
+        background-image: radial-gradient(#19212F, $color-type-accent);
+        transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+
+    &__checkbox:checked ~ &__background {
+        transform: scale(2250);
+        z-index: 1000;
+        opacity: 1;
+    }
+
+    &__screen {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1500;
+
+        opacity: 0;
+        width: 0;
+
+        transition: all .8s cubic-bezier(1,.01,.78,.22);
+    }
+
+    &__list {
+        @include anchor-center;
+            list-style: none;
+            text-align: center;
+            width: 100%;
+            font-family: $fieldwork-bold;
+            font-size: 7.72rem;
+            
+
+
+        &-item {
+            margin: 1rem;
+            @include transition-opt;
+            @include fill-left;
+            display: block;
+        }
+        &-number {
+            font-family: $fieldwork-demi;
+        }
+    }
+
+    &__checkbox:checked ~ &__screen {
+        @include anchor-center;
+        opacity: 1;
+        width: 100%;
+    }
+
 }

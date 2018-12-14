@@ -11,7 +11,7 @@ function centerCanvas() {
 }
 
 function preload() {
-    loadJSON('https://www.behance.net/v2/projects/?api_key=2X2KbdNdGiu8CUCPA5qCh3RW6di15qo6');
+    loadJSON('https://www.behance.net/v2/projects/?api_key=2X2KbdNdGiu8CUCPA5qCh3RW6di15qo6', {'jsonCallbackFunction': "alert"});
 }
 
 function setup() {
@@ -19,7 +19,7 @@ function setup() {
     centerCanvas();
     var i = random(0,48);
     img__result = img.projects[i].covers.max_808;
-    img = createImg(img__result); 
+    img = createImg(img__result);
 }
 
 function windowResized() {

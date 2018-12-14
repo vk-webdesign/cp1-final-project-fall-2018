@@ -1,3 +1,48 @@
-$color-main: #2E294E;
+$color-main: #454552;
+$color-type: #aba08c;
+$color-type-secondary: rgb(228, 218, 200);
+$color-type-accent: #aaefc2;
+$color-button: #303633;
+$color-secondary: #4ea1d3;
+$color-accent: #aaefc2;
+$default-hover-color: #aaefc2;
 
-$color-type: #FFFFF3;
+//type
+$fieldwork-demi: Fieldwork-Hum-DemiBold;
+$fieldwork-bold: Fieldwork-Geo-Bold;
+
+
+
+
+
+//Transitions
+/* defaults for transition-opt */
+$lightblue:#aaefc2;
+$darkblue: #303633;
+
+$default-hover-color: $lightblue;
+$display: inline;
+$transition-color: $lightblue;
+$transition-speed: 1s;
+$easing: ease;
+$without-delay: 0s;
+$padding: 10px;
+
+/* defaults for line-opt */
+$default-width: 3px;
+$default-height: 3px;
+$max-height: 100%;
+$max-width: 100%;
+
+/* defaults for transitions */
+$half-width: 50%;
+$half-height: 50%;
+$small-height: 1px;
+$linethrough-height: 5px;
+
+/* default delay */
+$default-delay: 2s;
+
+/* defaults for typograhpy element */
+$color: $darkblue; /* color when element is NOT hovered. */
+$font-size: 4em;

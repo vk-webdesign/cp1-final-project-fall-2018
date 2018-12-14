@@ -2,19 +2,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    <script src="jquery.keyframes.js"></script>
     <script src="node_modules/p5/lib/p5.js"></script>
     <script src="node_modules/p5/lib/addons/p5.dom.js"></script>
+    <script type="text/javascript" src="js/rita-full.js""></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--/**
+    * @license
+    * MyFonts Webfont Build ID 3687892, 2018-12-13T23:29:23-0500
+    * 
+    * The fonts listed in this notice are subject to the End User License
+    * Agreement(s) entered into by the website owner. All other parties are 
+    * explicitly restricted from using the Licensed Webfonts(s).
+    * 
+    * You may obtain a valid license at the URLs below.
+    * 
+    * Webfont: Fieldwork-Geo-Bold by TipoType
+    * URL: https://www.myfonts.com/fonts/tipotype/fieldwork/geo-bold/
+    * Copyright: Copyright (c) 2018 by TipoType Team. All rights reserved.
+    * Licensed pageviews: 10,000
+    * 
+    * 
+    * License: https://www.myfonts.com/viewlicense?type=web&buildid=3687892
+    * 
+    * © 2018 MyFonts Inc
+    */-->
+    <script type="text/javascript" src="font/webfonts/Fieldwork.js"></script>
+
+    <title>Portfolio Project Generator</title>
 </head>
 
 <body>
-    
+<div class="canvas">
+<img src="img/background3.jpg" alt="bkg" class="background-photo">
 <div class="widget">
-    <div class="widget__dribbble">
-        <script src="js/behance.js"></script>
+    <div class="widget__prompt">
+        <div id="prompt">
+        <script type="text/javascript" src="js/prompt.js"></script>
+        </div>
     </div>
-    <div class="widget__prompt"></div>
-    <div class="widget__button"></div>
+        <button class="prompt__button" onclick="addNewStory()"><img src="img/triangle.png" alt="click-prompt" class="prompt__icon"></button>
+        </button>
+
+
+
+    <div class="keys">
+        <input type="checkbox" class="keys__checkbox" id="keys-toggle">
+        <label for="keys-toggle" class="keys__button"">Good Design is</label>
+        <div class="keys__background">&nbsp;</div>
+
+        <div class="keys__screen">
+            <ul class="keys__list">
+                <li class="keys__list-item"><span class="keys__list-number">1</span> pleasant for your state of mind</li>
+                <li class="keys__list-item"><span class="keys__list-number">2</span> perserves dignity</li>
+                <li class="keys__list-item"><span class="keys__list-number">3</span> inspires play</li>
+                <li class="keys__list-item"><span class="keys__list-number">4</span> calm</li>
+            </ul>
+        </div>
+    </div>    
+</div>
 </div>
 
 </body>
