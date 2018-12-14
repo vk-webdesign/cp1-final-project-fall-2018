@@ -20,7 +20,7 @@ From what pieces did you build your project?
 
 ## Challenges
 ##### A brief discussion of what was hard, challenging, or unexpected about your project.
-It will be challenging to implement the dribbble api. I hope it works
+The challenges I faced while creating this project was the implementation of Dribbble or Behance APIs. Both of them are dated and are possibly not functional. I had to readjust my gameplan a couple times in order to complete this project on time. It was also a bit of a challenge to get all of the site components to work together proporly but I think I now have a good framework to improve upon.
 
 ## Timeline
 
