@@ -19,7 +19,8 @@ body {
 
 html,
 body {
-  height: 100%; }
+  height: 100%;
+  background-color: #19212F; }
 
 .canvas {
   margin: 2rem;
@@ -36,30 +37,33 @@ body {
 
 @keyframes show {
   0% {
-    margin-top: -270px; }
+    margin-top: -27rem;
+    opacity: 0; }
   5% {
-    margin-top: -180px; }
+    margin-top: -18rem;
+    opacity: 0.1; }
   33% {
-    margin-top: -180px; }
+    margin-top: -18rem;
+    opacity: 0.3; }
   38% {
-    margin-top: -90px; }
+    margin-top: 9rem;
+    opacity: 0.6; }
   66% {
-    margin-top: -90px; }
+    margin-top: -9rem;
+    opacity: 0.6; }
   71% {
-    margin-top: 0px; }
+    margin-top: 0;
+    opacity: 1; }
   99.99% {
-    margin-top: 0px; }
+    margin-top: 0; }
   100% {
-    margin-top: -270px; } }
+    margin-top: 0; } }
 
 .background-photo {
   width: 100%; }
 
 .widget {
   font-weight: 600; }
-  .widget__dribbble {
-    margin: auto;
-    background-color: #454552; }
   .widget__prompt {
     background-color: #454552; }
 
@@ -68,12 +72,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: show 1s linear;
   width: 75vw;
-  font-size: 12.5rem;
+  font-size: 9rem;
+  line-height: 9.5rem;
   font-family: Fieldwork-Geo-Bold, sans-serif;
   text-align: center;
   letter-spacing: 0rem;
-  line-height: 12.5rem;
   font-variant-ligatures: common-ligatures; }
 
 .prompt__icon {
@@ -105,7 +110,7 @@ body {
   text-align: center;
   font-family: Fieldwork-Geo-Bold;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   text-align: center;
   letter-spacing: 0.18rem;
   color: #aaefc2;
@@ -122,7 +127,7 @@ body {
   height: 0.5rem;
   width: 0.5rem;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 10;
   opacity: 0;
   z-index: 1000;
   background-image: radial-gradient(#19212F, #aaefc2);
@@ -143,6 +148,14 @@ body {
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(1, 0.01, 0.78, 0.22); }
+
+.keys__checkbox:checked ~ .keys__screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  width: 100%; }
 
 .keys__list {
   position: absolute;
@@ -232,15 +245,12 @@ body {
       top: 0%;
       right: 0; }
   .keys__list-number {
-    font-family: Fieldwork-Hum-DemiBold; }
+    font-family: Fieldwork-Hum-DemiBold;
+    margin-right: 3rem;
+    font-variant-numeric: oldstyle-nums; }
 
-.keys__checkbox:checked ~ .keys__screen {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 1;
-  width: 100%; }
+.keys__checkbox:checked ~ .keys__list {
+  opacity: 1; }
 
 .word0 {
   display: inline;

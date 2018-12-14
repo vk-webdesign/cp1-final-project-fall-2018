@@ -1,12 +1,12 @@
 @keyframes show {
-    0% {margin-top:-270px;}
-    5% {margin-top:-180px;}
-    33% {margin-top:-180px;}
-    38% {margin-top:-90px;}
-    66% {margin-top:-90px;}
-    71% {margin-top:0px;}
-    99.99% {margin-top:0px;}
-    100% {margin-top:-270px;}
+    0% {margin-top:-27rem; opacity: 0;}
+    5% {margin-top:-18rem; opacity: 0.1}
+    33% {margin-top:-18rem; opacity: 0.3}
+    38% {margin-top:9rem; opacity: 0.6}
+    66% {margin-top:-9rem; opacity: 0.6;}
+    71% {margin-top:0; opacity: 1;}
+    99.99% {margin-top:0;}
+    100% {margin-top:0;}
 }
 
 .background-photo {
@@ -16,12 +16,6 @@
 .widget {
     font-weight: 600;
 
-
-    &__dribbble {
-        margin:auto;
-        background-color: $color-main;
-    }
-
     &__prompt {
         background-color: $color-main;
     }
@@ -29,15 +23,14 @@
 
 #prompt {
     @include anchor-center;
-    //animation: show 1s linear 1;
+    animation: show 1s linear;
     width: 75vw;
 
-
-    font-size: 12.5rem;
+    font-size: 9rem;
+    line-height: 9.5rem;
     font-family: $fieldwork-bold, sans-serif;
     text-align: center;
     letter-spacing: 0rem;
-    line-height: 12.5rem;
     font-variant-ligatures: common-ligatures;
 }
 
@@ -72,7 +65,7 @@
 
         font-family: $fieldwork-bold;
         text-transform: uppercase;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         text-align: center;
         letter-spacing: 0.18rem;
         color: $color-type-accent;
@@ -91,7 +84,7 @@
         height: 0.5rem;
         width: 0.5rem;
         border-radius: 50%;
-        z-index: 1;
+        z-index: 10;
         opacity: 0;
         z-index: 1000;
         background-image: radial-gradient(#19212F, $color-type-accent);
@@ -118,6 +111,12 @@
         transition: all .8s cubic-bezier(1,.01,.78,.22);
     }
 
+    &__checkbox:checked ~ &__screen {
+        @include anchor-center;
+        opacity: 1;
+        width: 100%;
+    }
+
     &__list {
         @include anchor-center;
             list-style: none;
@@ -125,8 +124,6 @@
             width: 100%;
             font-family: $fieldwork-bold;
             font-size: 7.72rem;
-            
-
 
         &-item {
             margin: 1rem;
@@ -134,15 +131,18 @@
             @include fill-left;
             display: block;
         }
+
         &-number {
             font-family: $fieldwork-demi;
+            margin-right: 3rem;
+            font-variant-numeric: oldstyle-nums;
         }
     }
 
-    &__checkbox:checked ~ &__screen {
-        @include anchor-center;
+    &__checkbox:checked ~ &__list {
         opacity: 1;
-        width: 100%;
     }
+    
+
 
 }
